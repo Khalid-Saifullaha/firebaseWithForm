@@ -10,6 +10,7 @@ import Products from "./components/Products.jsx";
 import Login from "./components/Login.jsx";
 import Register from "./components/Register.jsx";
 import Contact from "./components/Contact.jsx";
+import TermsAndConditions from "./components/TermsAndConditions.jsx";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact></Contact>,
+      },
+      {
+        path: "/termscondition",
+        element: <TermsAndConditions></TermsAndConditions>,
       },
     ],
   },

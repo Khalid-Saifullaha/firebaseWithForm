@@ -45,7 +45,7 @@ const Login = () => {
 
         <div className="flex justify-center items-center space-x-3 my-4">
           <hr className="w-1/4 border-gray-400" />
-          <span>or</span>
+          <span>Or Continue with</span>
           <hr className="w-1/4 border-gray-400" />
         </div>
 
@@ -69,7 +69,7 @@ const Login = () => {
         </p>
 
         <p className="text-center mt-8">
-          Don't have an account?{" "}
+          Don't have an account? Please
           <Link
             className=" text-cyan-400 hover:text-cyan-500 hover:underline"
             to={"/register"}
